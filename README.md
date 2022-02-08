@@ -19,11 +19,11 @@ This option uses proprietary software with terms of use, requires a Google accou
 - At the top of the panel that appears on the left, there are three icons: click the one furthest to the right to **Mount Drive**
 - Run the code cell that appears in your notebook.
 - After running, you should then have access to your Google Drive files and folders in the lefthand filebrowser pane
-  - Note that you will need to use the full filepath for any data files you might need to import into your lab notebook (i.e. instead of loading something like "data.csv" which uses a relative path and assumes the file is in the same folder as your notebook, you would need to load it explicitly using the full path, such as "/content/drive/MyDrive/labX/data.csv").
+  - Note that you will need to use the full filepath for any data files you might need to import into your lab notebook (i.e. instead of loading something like "data.csv" which uses a relative path and assumes the file is in the same folder as your notebook, you would need to load it explicitly using the full path, such as "/content/drive/MyDrive/labX/data.csv"). Like in Jupyter Lab, you can keep track of where your files are in the file browser pane on the left.
 
 ## To run the lab *online* using *MyBinder*
 
-This option uses open source infrastructure and can integrate directly with Github while being online, however it can't save your work anywhere since each new session is temporary. A good workaround is to use `git push` to save your work (which means you should be pushing frequently if you don't want to lose any progress due to having accidentally closed your web browser!).
+This option uses open source infrastructure and can integrate directly with Github while being online, however it requires your Github repo to be set to *public*. It also can't save your work anywhere since each new session is temporary. A good workaround is to use `git push` to save your work (which means you should be pushing frequently if you don't want to lose any progress due to having accidentally closed your web browser!).
 
 - Once you have forked this lab by using the Github Classroom link, go to your Github repository settings and make your repository *Public*.
 - Paste your repo URL at [binder.org](https://mybinder.org/) and click **launch**. This will launch a temporary online Jupyter Lab server, but be mindful of the following:
